@@ -1,0 +1,42 @@
+.container {
+  max-width: 500px;
+  
+  padding: 6rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='tel'],
+  input[type='password'],
+  input[type='file'] {
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type='file'] {
+    padding: 0;
+  }
+  
+  .btn-primary {
+    background-color: #034805;
+    border-color: #00ff8c;
+  }
+  
+  .btn-primary:hover {
+    background-color: #8614ea;
+    border-color: #e75af1;
+  }
+  
